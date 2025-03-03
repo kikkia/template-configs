@@ -81,9 +81,6 @@ metrics:
   prometheus:
     enabled: true
     endpoint: /metrics
-sentry:
-  dsn: ""
-  environment: ""
 logging:
   file:
     path: ./logs/
