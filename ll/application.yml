@@ -21,11 +21,10 @@ plugins:
   lavasrc:
     providers: 
       - "custisrc:%ISRC%"
-      - "dzisrc:%ISRC%" 
     sources:
       spotify: true 
       applemusic: true 
-      deezer: true 
+      deezer: false 
       yandexmusic: false 
       flowerytts: false 
       youtube: false 
