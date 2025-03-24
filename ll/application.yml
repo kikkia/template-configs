@@ -39,13 +39,10 @@ plugins:
       formats: [ "FLAC", "MP3_320", "MP3_256", "MP3_128", "MP3_64", "AAC_64" ]
 lavalink:
   plugins:
-    - dependency: "dev.lavalink.youtube:youtube-plugin:8228828ed82e976187593b417dcb3d45bcadd5db"
-      repository: "https://maven.kikkia.dev/snapshots"
+    - dependency: "dev.lavalink.youtube:youtube-plugin:3e4fb4dd88fcd7f18f71807cdfd38a6cf27fe023"
       snapshot: true
     - dependency: "com.github.topi314.lavasrc:lavasrc-plugin:64b3deb"
       repository: "https://maven.kikkia.dev/snapshots" 
-  defaultPluginRepository: "https://maven.kikkia.dev/releases" 
-  defaultPluginSnapshotRepository: "https://maven.kikkia.dev/snapshots"
   server:
     sources:
       youtube: false
