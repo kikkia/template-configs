@@ -41,7 +41,7 @@ lavalink:
   plugins:
     - dependency: "dev.lavalink.youtube:youtube-plugin:3e4fb4dd88fcd7f18f71807cdfd38a6cf27fe023"
       snapshot: true
-    - dependency: "com.github.topi314.lavasrc:lavasrc-plugin:64b3deb"
+    - dependency: "com.github.topi314.lavasrc:lavasrc-plugin:d0ea4fc"
       repository: "https://maven.kikkia.dev/snapshots" 
   server:
     sources:
