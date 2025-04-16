@@ -29,8 +29,6 @@ plugins:
       flowerytts: false 
       youtube: false 
       vkmusic: false
-      customsrc: true
-      lofiradio: true
     spotify:
       playlistLoadLimit: 6 
       albumLoadLimit: 6 
