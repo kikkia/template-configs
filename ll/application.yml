@@ -38,7 +38,7 @@ plugins:
       formats: [ "FLAC", "MP3_320", "MP3_256", "MP3_128", "MP3_64", "AAC_64" ]
 lavalink:
   plugins:
-    - dependency: "dev.lavalink.youtube:youtube-plugin:7630fc99fac63e3319d282aa28a60ff3476e09be"
+    - dependency: "dev.lavalink.youtube:youtube-plugin:1c4c11bf151cf212f7ddd4c43e3c4b57055c2567"
       repository: "https://maven.kikkia.dev/snapshots"
     - dependency: "com.github.topi314.lavasrc:lavasrc-plugin:2d5cd1c"
       repository: "https://maven.lavalink.dev/snapshots"
