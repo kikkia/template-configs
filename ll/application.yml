@@ -5,6 +5,9 @@ server:
 plugins:
   ripsrc:
     external: true
+    connectTimeout: 10000
+    socketTimeout: 10000
+    connectionRequestTimeout: 10000
   youtube:
     enabled: true
     oauth:
@@ -46,7 +49,7 @@ lavalink:
       repository: "https://maven.lavalink.dev/snapshots"
     - dependency: "com.kikkia.lofiradio:Lofi-Radio-Plugin:b2761ca"
       repository: "https://maven.kikkia.dev/snapshots"
-    - dependency: "com.kikkia.ripsrc:ripsrc-plugin:2ac904c"
+    - dependency: "com.kikkia.ripsrc:ripsrc-plugin:4b7c079"
       repository: "https://maven.kikkia.dev/snapshots"
   server:
     sources:
