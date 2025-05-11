@@ -3,6 +3,8 @@ server:
   http2:
     enabled: false
 plugins:
+  ripsrc:
+    external: true
   youtube:
     enabled: true
     oauth:
