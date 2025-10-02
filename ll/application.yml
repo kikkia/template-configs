@@ -44,7 +44,7 @@ plugins:
 lavalink:
   plugins:
     - dependency: "dev.lavalink.youtube:youtube-plugin:89f68bfe7aa6dc326061003afc15da3dee7b2110"
-      # repository: "https://maven.kikkia.dev/snapshots"
+      repository: "https://maven.lavalink.dev/snapshots"
     - dependency: "com.github.topi314.lavasrc:lavasrc-plugin:2d5cd1c"
       repository: "https://maven.lavalink.dev/snapshots"
     - dependency: "com.kikkia.lofiradio:Lofi-Radio-Plugin:b2761ca"
